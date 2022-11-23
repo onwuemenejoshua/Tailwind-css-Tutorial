@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* this is how to apply custom styling. i.e my own personal styling. and you call it on the index.html. */
+.customBtn {
+  @apply bg-purple;
+}
+
+.customBtn:hover {
+  @apply bg-bermuda;
+  @apply shadow-md;
+}
